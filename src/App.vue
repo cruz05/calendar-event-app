@@ -1,16 +1,17 @@
 <template>
+<h1>Calendar</h1>
 <div id="app">
-<div id="calendar-week" class="container">
-<!-- Markup for calendar week -->
-<p class="text-red-500">holi!</p>
-</div>
-<div id="calendar-entry">
-<!-- Markup for calendar entry -->
-</div>
+    <CalendarWeek/>
+    <CalendarEntry/>
 </div>
 </template>
+
 <script>
+import CalendarEntry from './components/CalendarEntry.vue';
+import CalendarWeek from './components/CalendarWeek.vue';
+
 export default {
-name: 'App'
+    name: "App",
+    components: { CalendarEntry, CalendarWeek }
 }
 </script>
