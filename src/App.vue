@@ -1,6 +1,6 @@
 <template>
-<h1>Calendar</h1>
-<div id="app">
+<div id="app" class="text-center">
+    <h1 class="text-2xl font-semibold">Calendar</h1>
     <CalendarWeek/>
     <CalendarEntry/>
 </div>
