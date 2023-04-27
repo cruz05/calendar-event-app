@@ -1,5 +1,5 @@
 <template>
-    <div id="calendar-week" class="flex p-2 bg-slate-500">
+    <div id="calendar-week" class="mx-auto w-fit flex p-2 bg-gray-600">
         <CalendarDay v-for="day in sharedState.seedData" :key="day.id" :day="day"/>
     </div>
 </template>
