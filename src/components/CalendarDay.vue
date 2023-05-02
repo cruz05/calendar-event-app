@@ -23,10 +23,7 @@ export default{
     props: ["day"],
     components: { CalendarEvent },
     methods: {
-        setActive(id) {
-            console.log(id)
-            return store.setActiveDay(id)
-        }
+        setActive(id) {store.setActiveDay(id)}
     },
 }
 </script>
